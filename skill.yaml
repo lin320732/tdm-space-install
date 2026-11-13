@@ -1,0 +1,6 @@
+name: tdm-space-install
+description: 在 Muse 里从零建出「TDM 新闻下载」空间的安装包：查新闻、下载影片、裁剪、播放、下载到手机、公开下载链接、发 Google Drive、关键词监控，并预留 WebDAV / Telegram。
+version: "1.0.0"
+requires:
+  - tdm skill（https://github.com/lylasi/TDMDO，装到 ~/workspace/custom-skills/tdm/）
+  - Python >= 3.9、requests、ffmpeg、yt-dlp
